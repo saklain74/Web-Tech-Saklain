@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 04</title>
+    <style>
+        #error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+<h3>Login Form</h3>
+
+<form onsubmit="return checkForm()">
+    Email:<br>
+    <input type="text" id="email"><br><br>
+
+    Password:<br>
+    <input type="password" id="password"><br><br>
+
+    <input type="submit" value="Login">
+</form>
+
+<p id="error"></p>
+<p>Wrong attempts: <span id="count">0</span></p>
+
+<script src="task04.js"></script>
+
+</body>
+</html>
